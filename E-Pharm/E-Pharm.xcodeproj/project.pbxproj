@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2427B616C5E7CF53D36143C8 /* Pods_E_Pharm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE678B605596B234567EC71 /* Pods_E_Pharm.framework */; };
+		432F833C2804B4C5003A6D50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F833B2804B4C5003A6D50 /* AppDelegate.swift */; };
+		432F833E2804B4C5003A6D50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F833D2804B4C5003A6D50 /* SceneDelegate.swift */; };
+		432F83402804B4C5003A6D50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F833F2804B4C5003A6D50 /* ViewController.swift */; };
+		432F83432804B4C5003A6D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432F83412804B4C5003A6D50 /* Main.storyboard */; };
+		432F83462804B4C5003A6D50 /* E_Pharm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 432F83442804B4C5003A6D50 /* E_Pharm.xcdatamodeld */; };
+		432F83482804B4C6003A6D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432F83472804B4C6003A6D50 /* Assets.xcassets */; };
+		432F834B2804B4C6003A6D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432F83492804B4C6003A6D50 /* LaunchScreen.storyboard */; };
+		432F83562804E67F003A6D50 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F83552804E67F003A6D50 /* Login.swift */; };
+		432F83582804E69B003A6D50 /* Inscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F83572804E69B003A6D50 /* Inscription.swift */; };
+		432F835A2804E6C2003A6D50 /* AccuileMedicament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F83592804E6C2003A6D50 /* AccuileMedicament.swift */; };
+		432F835C280507AC003A6D50 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F835B280507AC003A6D50 /* Description.swift */; };
+		432F835E280527A9003A6D50 /* Panier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F835D280527A9003A6D50 /* Panier.swift */; };
+		432F836228056614003A6D50 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F836128056614003A6D50 /* User.swift */; };
+		432F836C280568C0003A6D50 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F836B280568C0003A6D50 /* UserViewModel.swift */; };
+		432F836F28056C28003A6D50 /* Constante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F836E28056C28003A6D50 /* Constante.swift */; };
+		432F837328056E04003A6D50 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F837228056E04003A6D50 /* LoadingScreen.swift */; };
+		432F837528056F82003A6D50 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F837428056F82003A6D50 /* Alert.swift */; };
+		E4CE1361280A282100C2FAFD /* MdpOublieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE1360280A282100C2FAFD /* MdpOublieView.swift */; };
+		E4CE1363280A285C00C2FAFD /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE1362280A285C00C2FAFD /* ConfirmationView.swift */; };
+		E4CE1365280A288B00C2FAFD /* ChangerMdpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE1364280A288B00C2FAFD /* ChangerMdpView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23860F99E69171A3907977ED /* Pods-E-Pharm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Pharm.release.xcconfig"; path = "Target Support Files/Pods-E-Pharm/Pods-E-Pharm.release.xcconfig"; sourceTree = "<group>"; };
+		432F83382804B4C5003A6D50 /* E-Pharm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Pharm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		432F833B2804B4C5003A6D50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		432F833D2804B4C5003A6D50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		432F833F2804B4C5003A6D50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		432F83422804B4C5003A6D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		432F83452804B4C5003A6D50 /* E_Pharm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = E_Pharm.xcdatamodel; sourceTree = "<group>"; };
+		432F83472804B4C6003A6D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		432F834A2804B4C6003A6D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		432F834C2804B4C6003A6D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432F83552804E67F003A6D50 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		432F83572804E69B003A6D50 /* Inscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inscription.swift; sourceTree = "<group>"; };
+		432F83592804E6C2003A6D50 /* AccuileMedicament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccuileMedicament.swift; sourceTree = "<group>"; };
+		432F835B280507AC003A6D50 /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		432F835D280527A9003A6D50 /* Panier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panier.swift; sourceTree = "<group>"; };
+		432F836128056614003A6D50 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		432F836B280568C0003A6D50 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		432F836E28056C28003A6D50 /* Constante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constante.swift; sourceTree = "<group>"; };
+		432F837228056E04003A6D50 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		432F837428056F82003A6D50 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		CFE678B605596B234567EC71 /* Pods_E_Pharm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_Pharm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CE1360280A282100C2FAFD /* MdpOublieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MdpOublieView.swift; sourceTree = "<group>"; };
+		E4CE1362280A285C00C2FAFD /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		E4CE1364280A288B00C2FAFD /* ChangerMdpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangerMdpView.swift; sourceTree = "<group>"; };
+		EB1B47A7463414980B48A185 /* Pods-E-Pharm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Pharm.debug.xcconfig"; path = "Target Support Files/Pods-E-Pharm/Pods-E-Pharm.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		432F83352804B4C5003A6D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2427B616C5E7CF53D36143C8 /* Pods_E_Pharm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432F832F2804B4C5003A6D50 = {
+			isa = PBXGroup;
+			children = (
+				432F833A2804B4C5003A6D50 /* E-Pharm */,
+				432F83392804B4C5003A6D50 /* Products */,
+				C3606C091F9127C57C76E1ED /* Pods */,
+				E0AE0909B9DF641E73698766 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		432F83392804B4C5003A6D50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432F83382804B4C5003A6D50 /* E-Pharm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		432F833A2804B4C5003A6D50 /* E-Pharm */ = {
+			isa = PBXGroup;
+			children = (
+				432F836D28056BDB003A6D50 /* Utilities */,
+				432F83542804E64D003A6D50 /* Model */,
+				432F83532804E61E003A6D50 /* ViewModel */,
+				432F83522804E613003A6D50 /* View */,
+				432F833B2804B4C5003A6D50 /* AppDelegate.swift */,
+				432F833D2804B4C5003A6D50 /* SceneDelegate.swift */,
+				432F833F2804B4C5003A6D50 /* ViewController.swift */,
+				432F83412804B4C5003A6D50 /* Main.storyboard */,
+				432F83472804B4C6003A6D50 /* Assets.xcassets */,
+				432F83492804B4C6003A6D50 /* LaunchScreen.storyboard */,
+				432F834C2804B4C6003A6D50 /* Info.plist */,
+				432F83442804B4C5003A6D50 /* E_Pharm.xcdatamodeld */,
+			);
+			path = "E-Pharm";
+			sourceTree = "<group>";
+		};
+		432F83522804E613003A6D50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				432F83552804E67F003A6D50 /* Login.swift */,
+				432F83572804E69B003A6D50 /* Inscription.swift */,
+				432F83592804E6C2003A6D50 /* AccuileMedicament.swift */,
+				432F835B280507AC003A6D50 /* Description.swift */,
+				432F835D280527A9003A6D50 /* Panier.swift */,
+				E4CE1360280A282100C2FAFD /* MdpOublieView.swift */,
+				E4CE1362280A285C00C2FAFD /* ConfirmationView.swift */,
+				E4CE1364280A288B00C2FAFD /* ChangerMdpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		432F83532804E61E003A6D50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				432F836B280568C0003A6D50 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		432F83542804E64D003A6D50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				432F836128056614003A6D50 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		432F836D28056BDB003A6D50 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				432F836E28056C28003A6D50 /* Constante.swift */,
+				432F837228056E04003A6D50 /* LoadingScreen.swift */,
+				432F837428056F82003A6D50 /* Alert.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C3606C091F9127C57C76E1ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB1B47A7463414980B48A185 /* Pods-E-Pharm.debug.xcconfig */,
+				23860F99E69171A3907977ED /* Pods-E-Pharm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0AE0909B9DF641E73698766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFE678B605596B234567EC71 /* Pods_E_Pharm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		432F83372804B4C5003A6D50 /* E-Pharm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432F834F2804B4C6003A6D50 /* Build configuration list for PBXNativeTarget "E-Pharm" */;
+			buildPhases = (
+				A11B3C56E7DBBC4BB0762EFF /* [CP] Check Pods Manifest.lock */,
+				432F83342804B4C5003A6D50 /* Sources */,
+				432F83352804B4C5003A6D50 /* Frameworks */,
+				432F83362804B4C5003A6D50 /* Resources */,
+				B14230392F68CB1D888CF753 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-Pharm";
+			productName = "E-Pharm";
+			productReference = 432F83382804B4C5003A6D50 /* E-Pharm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432F83302804B4C5003A6D50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					432F83372804B4C5003A6D50 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 432F83332804B4C5003A6D50 /* Build configuration list for PBXProject "E-Pharm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432F832F2804B4C5003A6D50;
+			productRefGroup = 432F83392804B4C5003A6D50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432F83372804B4C5003A6D50 /* E-Pharm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		432F83362804B4C5003A6D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432F834B2804B4C6003A6D50 /* LaunchScreen.storyboard in Resources */,
+				432F83482804B4C6003A6D50 /* Assets.xcassets in Resources */,
+				432F83432804B4C5003A6D50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A11B3C56E7DBBC4BB0762EFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-Pharm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B14230392F68CB1D888CF753 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Pharm/Pods-E-Pharm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Pharm/Pods-E-Pharm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-Pharm/Pods-E-Pharm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432F83342804B4C5003A6D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432F835E280527A9003A6D50 /* Panier.swift in Sources */,
+				432F836C280568C0003A6D50 /* UserViewModel.swift in Sources */,
+				432F835C280507AC003A6D50 /* Description.swift in Sources */,
+				432F83582804E69B003A6D50 /* Inscription.swift in Sources */,
+				432F835A2804E6C2003A6D50 /* AccuileMedicament.swift in Sources */,
+				E4CE1363280A285C00C2FAFD /* ConfirmationView.swift in Sources */,
+				432F83462804B4C5003A6D50 /* E_Pharm.xcdatamodeld in Sources */,
+				432F837528056F82003A6D50 /* Alert.swift in Sources */,
+				432F837328056E04003A6D50 /* LoadingScreen.swift in Sources */,
+				432F83562804E67F003A6D50 /* Login.swift in Sources */,
+				E4CE1361280A282100C2FAFD /* MdpOublieView.swift in Sources */,
+				432F83402804B4C5003A6D50 /* ViewController.swift in Sources */,
+				E4CE1365280A288B00C2FAFD /* ChangerMdpView.swift in Sources */,
+				432F833C2804B4C5003A6D50 /* AppDelegate.swift in Sources */,
+				432F836F28056C28003A6D50 /* Constante.swift in Sources */,
+				432F836228056614003A6D50 /* User.swift in Sources */,
+				432F833E2804B4C5003A6D50 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		432F83412804B4C5003A6D50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432F83422804B4C5003A6D50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		432F83492804B4C6003A6D50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432F834A2804B4C6003A6D50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432F834D2804B4C6003A6D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		432F834E2804B4C6003A6D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432F83502804B4C6003A6D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB1B47A7463414980B48A185 /* Pods-E-Pharm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "E-Pharm/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esprit.E-Pharm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		432F83512804B4C6003A6D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23860F99E69171A3907977ED /* Pods-E-Pharm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "E-Pharm/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esprit.E-Pharm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432F83332804B4C5003A6D50 /* Build configuration list for PBXProject "E-Pharm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432F834D2804B4C6003A6D50 /* Debug */,
+				432F834E2804B4C6003A6D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432F834F2804B4C6003A6D50 /* Build configuration list for PBXNativeTarget "E-Pharm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432F83502804B4C6003A6D50 /* Debug */,
+				432F83512804B4C6003A6D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		432F83442804B4C5003A6D50 /* E_Pharm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				432F83452804B4C5003A6D50 /* E_Pharm.xcdatamodel */,
+			);
+			currentVersion = 432F83452804B4C5003A6D50 /* E_Pharm.xcdatamodel */;
+			path = E_Pharm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 432F83302804B4C5003A6D50 /* Project object */;
+}
